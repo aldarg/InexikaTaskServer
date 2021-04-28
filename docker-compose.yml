@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  inexika_server:
+    container_name: inexika_server
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    ports:
+      - 5001:5001
+    networks:
+      - webnet
+networks:
+  webnet:
