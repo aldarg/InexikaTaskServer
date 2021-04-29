@@ -1,4 +1,4 @@
-﻿# Frontend server for Inexika task
+﻿# Backend for Inexika task
 
 - ASP.NET Core 5.0 (Web API)
 - Entity Framework Core 5.0
